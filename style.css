@@ -5,9 +5,18 @@ line-height: 20px;
 font-weight: 700;
 text-align: center;
 color: #333333;}
-table { margin: 0 auto;
-    border-collapse: collapse;
-        border: 1px solid grey;}
-        th, td {
-            border: 1px solid grey;
-         }
+         nav {
+            width: 960px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        nav ul {
+            display: inline-block;
+        }
+        nav li {
+            float:left;
+        }
+        .content {
+            max-width: 900px;
+            margin: 0px auto;
+            }
